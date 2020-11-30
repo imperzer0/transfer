@@ -1,0 +1,29 @@
+.header { text-align: center; }
+
+nav ul { padding: 0;}
+
+nav li {
+  list-style: none;
+  display: inline;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 600px;
+}
+
+.photo img { width: 100%;}
+.data {font-size: 24px;}
+.data ul { margin-top: 0;}
+
+@media (max-width: 740px){
+  .container{ display: block; }
+  .photo { max-width: 100%;}
+}
