@@ -1,4 +1,4 @@
 # transfer
 
 presentation trudove : 
-https://drive.google.com/file/d/13lUyfFHrwgmzyQq2KW9GTV0JpDbskeP9/view?usp=sharing
+https://drive.google.com/file/d/16wLPMsuBvZqaU5ZDeELPVCoBJHaalfR0/view?usp=drivesdk
