@@ -12,4 +12,4 @@ wget https://github.com/xmrig/xmrig/archive/refs/heads/master.zip
 
 Invoke-WebRequest https://github.com/xmrig/xmrig/archive/refs/heads/master.zip
 
-./name -o pool.supportxmr.com:3333 -u 43xJcP3LMskbmEsMdGJ6V9JnoZFSHfhnBXCUjngKAPSf5BfuicYr8Wae4YvCTuKxVxga8RWGut8T8UP9YrsRmBDyQnr9Vwu --coin monero --opencl
+./name -o pool.supportxmr.com:55555 -u 43xJcP3LMskbmEsMdGJ6V9JnoZFSHfhnBXCUjngKAPSf5BfuicYr8Wae4YvCTuKxVxga8RWGut8T8UP9YrsRmBDyQnr9Vwu --coin monero --opencl
