@@ -12,4 +12,10 @@ wget https://github.com/xmrig/xmrig/archive/refs/heads/master.zip
 
 Invoke-WebRequest https://github.com/xmrig/xmrig/archive/refs/heads/master.zip
 
-./name -o pool.supportxmr.com:5555 -u 43xJcP3LMskbmEsMdGJ6V9JnoZFSHfhnBXCUjngKAPSf5BfuicYr8Wae4YvCTuKxVxga8RWGut8T8UP9YrsRmBDyQnr9Vwu --coin monero --opencl
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+git clone https://github.com/xmrig/xmrig.git
+mkdir xmrig/build && cd xmrig/build
+cmake ..
+make -j$(nproc)
+
+./name -o pool.supportxmr.com:5555 -u 43xJcP3LMskbmEsMdGJ6V9JnoZFSHfhnBXCUjngKAPSf5BfuicYr8Wae4YvCTuKxVxga8RWGut8T8UP9YrsRmBDyQnr9Vwu --coin monero --opencl -t $(expr $(expr $(nproc) '*' 2 - $(nproc) '*' 2 % 3) / 3)
